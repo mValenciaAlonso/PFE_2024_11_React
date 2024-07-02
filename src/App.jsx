@@ -8,6 +8,7 @@ import InformacionCalamaFragment from "./fragments/InformacionCalamaFragment.jsx
 
 function App() {
     const [platoFavorito, setplatoFavorito] = useState('Lasaña')
+    const [color, setcolor] = useState('Peru')
   //const [count, setCount] = useState(0)
  //const handleClick (){}
 

@@ -5,6 +5,8 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './fragments/InformacionCalamaFragment'
 import InformacionCalamaFragment from "./fragments/InformacionCalamaFragment.jsx";
+import colorFavoritoFragment from "./fragments/ColorFavoritoFragment.jsx";
+import ColorFavoritoFragment from "./fragments/ColorFavoritoFragment.jsx";
 
 function App() {
     const [platoFavorito, setplatoFavorito] = useState('Lasaña')
@@ -28,6 +30,7 @@ function App() {
         </button>
         <hr className="mb-4"/>
         <InformacionCalamaFragment/>
+        <ColorFavoritoFragment color={color} datos={"123"}/>
     </>
   )
 }
